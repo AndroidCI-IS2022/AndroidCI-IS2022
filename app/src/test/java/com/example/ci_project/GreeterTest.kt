@@ -10,8 +10,8 @@ import org.junit.runners.JUnit4
 
 
 class GreeterTest{
-    private val goodResponse = Greeter.getGoodResponse()
-    private val badResponse = Greeter.getBadResponse()
+    private val goodResponse = "Hi there"
+    private val badResponse = ":("
 
     @Test
     fun whenInputIsHi(){
