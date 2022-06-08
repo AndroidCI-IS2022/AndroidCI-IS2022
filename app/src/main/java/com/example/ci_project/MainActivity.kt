@@ -25,10 +25,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getResponse() {
-        if (editText.text.toString() == "hi") {
-            toastText = "Hi there :)"
+        toastText = if (editText.text.toString() == "hi") {
+            "Hi there :)"
         } else {
-            toastText = ":("
+            ":("
         }
 
     }
