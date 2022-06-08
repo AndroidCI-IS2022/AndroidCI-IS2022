@@ -1,6 +1,6 @@
 package com.example.ci_project
 
-import com.google.common.truth.Truth.assertThat;
+import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
@@ -10,8 +10,8 @@ import org.junit.runners.JUnit4
 
 
 class GreeterTest{
-    private val goodResponse = "Hi there"
-    private val badResponse = ":("
+    private val goodResponse = Greeter.getGoodResponse()
+    private val badResponse = Greeter.getBadResponse()
 
     @Test
     fun whenInputIsHi(){
