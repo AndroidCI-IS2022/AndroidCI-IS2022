@@ -8,7 +8,6 @@ import org.junit.runners.JUnit4
 
 @RunWith(JUnit4::class)
 
-
 class GreeterTest{
     private val goodResponse = "Hi there :)"
     private val badResponse = ":("
