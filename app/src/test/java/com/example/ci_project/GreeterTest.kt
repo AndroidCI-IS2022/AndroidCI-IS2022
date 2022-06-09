@@ -22,7 +22,7 @@ class GreeterTest{
 
     @Test
     fun whenInputIsNotHi(){
-        val input = "I don't like you"
+        val input = "I like you"
         val result = Greeter.getGreeting(input)
         assertThat(result).isEqualTo(badResponse)
     }
