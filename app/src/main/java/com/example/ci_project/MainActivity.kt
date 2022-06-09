@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         editText = findViewById(R.id.editText1)
         button.setOnClickListener {
             val toastText = Greeter.getGreeting(editText.text.toString().lowercase())
-            Toast.makeText(this, toastText, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, toastText, Toast.LENGTH_LONG).show()
         }
 
 
