@@ -56,4 +56,4 @@ jobs:
       - run: gcloud info
 
       - name: Run Test on Firebase Test Lab
-        run: gcloud firebase test android run --type robo --app app-debug.apk --device model=Pixel5,version=30,locale=en,orientation=portrait
+        run: gcloud firebase test android run --type robo --app app-debug.apk --device model=Pixel2,version=28,locale=en,orientation=portrait
