@@ -4,7 +4,7 @@ object Greeter {
 
     fun getGreeting(input: String): String {
         return if (input == "hi") {
-            "Hi there"
+            "Hi there :)"
         } else {
             ":("
         }
