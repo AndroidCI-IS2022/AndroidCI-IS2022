@@ -11,7 +11,7 @@ import org.junit.runners.JUnit4
 
 
 class GreeterTest{
-    private val goodResponse = "Hi there"
+    private val goodResponse = "Hi there :)"
     private val badResponse = ":("
 
     @Test
